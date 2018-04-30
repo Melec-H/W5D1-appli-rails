@@ -1,6 +1,7 @@
 class PagesController < ApplicationController
 
-	def home
+	def index
+	  @movies = Movie.all
 	end
 
 end
